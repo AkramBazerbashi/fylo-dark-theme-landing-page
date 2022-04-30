@@ -1,0 +1,117 @@
+@import 'media';
+
+$color1: hsl(217, 28%, 15%);
+$color2: hsl(218, 28%, 13%);
+$color3: hsl(216, 53%, 9%);
+$color4: hsl(219, 30%, 18%);
+$color5: hsl(176, 68%, 64%);
+$color6: hsl(198, 60%, 50%);
+$color7: hsl(0, 100%, 63%);
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background-color: $color2 !important;
+}
+
+.card1 {
+    background-image: url(../images/bg-curvy-mobile.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-color: $color2 !important;
+}
+.card2 {
+    background-color: $color2 !important;
+
+}
+
+.card3 {
+    background-color: $color2 !important;
+
+}
+
+.testimonials {
+    background-color: $color2 !important;
+
+}
+
+.card1 .card-body{
+    h5{
+        font-size: 34px !important;
+    }
+    a {
+        width: 260px !important;
+        font-family: 'Raleway', sans-serif !important;
+    }
+}
+
+.card2{
+    img{
+        width: 60px !important;
+    }
+}
+
+.card3{
+    .card-body{
+        a{
+            color: $color5 !important;
+        }
+    }
+}
+
+.profile{
+    img {
+        width: 64px !important;
+    }
+}
+
+.testimonials {
+    .container{
+        .row{
+            position: relative !important;
+            >img{
+                width: 40px !important;
+                height: 23px !important;
+                position: absolute !important;
+                top: -23px !important;
+                left: 47px !important;
+            }
+        }
+    }
+    .col {
+        background-color: $color4 !important;
+    }
+}
+
+.form {
+    margin-top: 100px !important;
+    background-color: $color1;
+    margin-bottom: -140px !important;
+    position: relative;
+
+    input:invalid ~ div.form-text {
+        display: block !important;
+    }
+}
+
+footer {
+    background-color: $color3;
+    padding-top: 200px;
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#anc:hover {
+    color: white !important;
+}
+
+#links div span:hover{
+    color: rgb(150, 150, 150) !important;
+    cursor: pointer;
+}
+
+#links + div i:hover {
+    color: $color5 !important;
+} 

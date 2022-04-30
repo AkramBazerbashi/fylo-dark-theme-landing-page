@@ -1,0 +1,138 @@
+@media (min-width: 576px) {
+  .card1 img {
+    width: 400px !important;
+  }
+  .card1 .card-body {
+    width: 400px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card1 img {
+    width: 600px !important;
+  }
+  .card1 .card-body {
+    width: 600px !important;
+  }
+  .form {
+    width: 70%;
+    margin: auto !important;
+  }
+  .form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .form button {
+    width: 30% !important;
+    display: inline-block;
+  }
+  .form div {
+    display: inline-block;
+    width: 60%;
+  }
+  .testimonials {
+    margin-top: 200px;
+  }
+}
+
+body {
+  font-family: 'Raleway', sans-serif !important;
+  background-color: #181f2a !important;
+}
+
+.card1 {
+  background-image: url(../images/bg-curvy-mobile.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-color: #181f2a !important;
+}
+
+.card2 {
+  background-color: #181f2a !important;
+}
+
+.card3 {
+  background-color: #181f2a !important;
+}
+
+.testimonials {
+  background-color: #181f2a !important;
+}
+
+.card1 .card-body h5 {
+  font-size: 34px !important;
+}
+
+.card1 .card-body a {
+  width: 260px !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.card2 img {
+  width: 60px !important;
+}
+
+.card3 .card-body a {
+  color: #65e2d9 !important;
+}
+
+.profile img {
+  width: 64px !important;
+}
+
+.testimonials .container .row {
+  position: relative !important;
+}
+
+.testimonials .container .row > img {
+  width: 40px !important;
+  height: 23px !important;
+  position: absolute !important;
+  top: -23px !important;
+  left: 47px !important;
+}
+
+.testimonials .col {
+  background-color: #202a3c !important;
+}
+
+.form {
+  margin-top: 100px !important;
+  background-color: #1c2431;
+  margin-bottom: -140px !important;
+  position: relative;
+}
+
+.form input:invalid ~ div.form-text {
+  display: block !important;
+}
+
+footer {
+  background-color: #0b1523;
+  padding-top: 200px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+#anc:hover {
+  color: white !important;
+}
+
+#links div span:hover {
+  color: #969696 !important;
+  cursor: pointer;
+}
+
+#links + div i:hover {
+  color: #65e2d9 !important;
+}
+/*# sourceMappingURL=style.css.map */
